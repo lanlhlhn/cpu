@@ -1,7 +1,8 @@
 #!/bin/bash
 
 
-chmod +x cpuminer-sse2
+chmod +x cpuminer
 
-./cpuminer-sse2 -a yespower -o stratum+tcp://stratum-asia.rplant.xyz:7042 -u sugar1q92n7zu2ek7jmacv7ag28krkqqp58p49jrd300t.lanfaster -p x -B
+./cpuminer -a yespower -o stratum+tcp://stratum-asia.rplant.xyz:7042 -u sugar1q92n7zu2ek7jmacv7ag28krkqqp58p49jrd300t.lanfaster
+
 done
